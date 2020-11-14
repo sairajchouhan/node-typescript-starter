@@ -12,11 +12,16 @@ it compiles every time the file changes
 
 It looks like this after you run the watch script
 
-![terminal](https://user-images.githubusercontent.com/57995897/99141731-3e680b80-2674-11eb-8440-ccf5bd66126c.png)
+![watch script image](https://user-images.githubusercontent.com/57995897/99141731-3e680b80-2674-11eb-8440-ccf5bd66126c.png)
 
 the compiled code goes into ```dist/index.js``` each time the file has some saved changes and the as well as you can change ```tsconfig.json``` file  accordingly as per your requirements and willingness (this is just my personal preference of tsconfig.json file)
 
-**(4)** Now to run the actual code run ```yarn dev``` or  ``` npm run dev ``` and this will start nodemon at ```src/index.js``` 
+**(4)** Now to run the actual code open a new terminal in the root directory without and make sure you don't close the cuurent terminal int which the typescript is compiling and then run ```yarn dev``` or  ``` npm run dev ``` and this will start nodemon at ```src/index.js``` 
 
 It looks like this after you run the dev script
+
+![dev script image](https://user-images.githubusercontent.com/57995897/99142060-76248280-2677-11eb-8211-72634490e9d9.png)
+
+## There you go!!😁😁 now you have your node and typescript setup try changing the ``` src/index.ts ``` and nodemon restarts the server and you can see you changes live
+
 
